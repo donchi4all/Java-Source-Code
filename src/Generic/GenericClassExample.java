@@ -13,7 +13,7 @@ public class GenericClassExample {
     
     public static void main(String[] args) {
         TestGeneric<Integer,String> genericInt = 
-                new TestGeneric<Integer,String>(120," Obi");
+                new TestGeneric<Integer,String>(120," chisom ");
         
         System.out.println("The name is " +genericInt.getObj1()
                 + " And he is "+ genericInt.getObj() +" years old");
